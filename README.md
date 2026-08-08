@@ -5,7 +5,6 @@
 - 📫 you can reach me via LinkedIn ?
 👉
   www.linkedin.com/in/adarsh-mani-tripathi
-- 😄 Pronouns: HE/HIM
 - ⚡ Fun fact: have good communication skills and i am a bathroom singer 😂
 
 <!---
