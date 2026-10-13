@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <title>About — capabilities and current interests</title>
+  <desc>Left panel lists verified capabilities; right panel cycles through three interests.</desc>
+
+  <defs>
+    <linearGradient id="life-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#247BFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FF354F" stop-opacity="0.7"/>
+    </linearGradient>
+    <pattern id="life-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#16203a"/>
+    </pattern>
+    <style>
+      .life-h { fill:#F4F6FC; font-size:18px; font-weight:700; letter-spacing:.3px; }
+      .life-cap-t { fill:#F4F6FC; font-size:15px; font-weight:600; }
+      .life-cap-s { fill:#A7B0C3; font-size:13px; }
+      .life-slide-t { fill:#F4F6FC; font-size:22px; font-weight:700; }
+      .life-slide-s { fill:#A7B0C3; font-size:14px; }
+      .life-kicker { fill:#247BFF; font-size:12px; font-weight:700; letter-spacing:2px; }
+      @media (prefers-reduced-motion: reduce) {
+        .life-slides g { opacity:0 !important; }
+        #life-s1 { opacity:1 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect x="3" y="3" width="794" height="294" rx="22" fill="#070B16"/>
+  <rect x="3" y="3" width="794" height="294" rx="22" fill="url(#life-dots)"/>
+  <rect x="3.5" y="3.5" width="793" height="293" rx="22" fill="none" stroke="url(#life-frame)" stroke-width="1.3"/>
+
+  <!-- left: capabilities -->
+  <g>
+    <text class="life-kicker" x="42" y="52">CAPABILITIES</text>
+    <text class="life-h" x="42" y="80">What I do</text>
+
+    <g>
+      <rect x="42" y="98" width="360" height="42" rx="10" fill="#0b1226" stroke="#243352" stroke-width="1"/>
+      <circle cx="64" cy="119" r="5" fill="#247BFF"/>
+      <text class="life-cap-t" x="80" y="116">Frontend</text>
+      <text class="life-cap-s" x="80" y="132">React · TypeScript · Tailwind · Vite</text>
+    </g>
+    <g>
+      <rect x="42" y="148" width="360" height="42" rx="10" fill="#0b1226" stroke="#243352" stroke-width="1"/>
+      <circle cx="64" cy="169" r="5" fill="#FF354F"/>
+      <text class="life-cap-t" x="80" y="166">AI / ML</text>
+      <text class="life-cap-s" x="80" y="182">Python · TensorFlow · local models</text>
+    </g>
+    <g>
+      <rect x="42" y="198" width="360" height="42" rx="10" fill="#0b1226" stroke="#243352" stroke-width="1"/>
+      <circle cx="64" cy="219" r="5" fill="#247BFF"/>
+      <text class="life-cap-t" x="80" y="216">Backend &amp; Cloud</text>
+      <text class="life-cap-s" x="80" y="232">FastAPI / Node · Supabase · Vercel · Render</text>
+    </g>
+    <text class="life-cap-s" x="42" y="270" opacity="0.8">Security-minded, accessible interfaces.</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="428" y1="60" x2="428" y2="252" stroke="#243352" stroke-width="1"/>
+
+  <!-- right: interests carousel -->
+  <g>
+    <text class="life-kicker" x="456" y="52" fill="#FF354F">CURRENTLY EXPLORING</text>
+
+    <!-- inner card -->
+    <rect x="456" y="70" width="304" height="150" rx="14" fill="#0b1226" stroke="#243352" stroke-width="1"/>
+
+    <g class="life-slides">
+      <g id="life-s1" opacity="1">
+        <text class="life-slide-t" x="480" y="126">Hackathons</text>
+        <text class="life-slide-s" x="480" y="152">Turning problem statements</text>
+        <text class="life-slide-s" x="480" y="172">into working prototypes.</text>
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.333"/>
+      </g>
+      <g opacity="0">
+        <text class="life-slide-t" x="480" y="126">Cybersecurity · CTF</text>
+        <text class="life-slide-s" x="480" y="152">Break-and-fix challenges</text>
+        <text class="life-slide-s" x="480" y="172">and defensive tooling.</text>
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.333;0.666"/>
+      </g>
+      <g opacity="0">
+        <text class="life-slide-t" x="480" y="126">Sketch &amp; generative art</text>
+        <text class="life-slide-s" x="480" y="152">Ink sketchbooks and code-</text>
+        <text class="life-slide-s" x="480" y="172">generated visuals.</text>
+        <animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" values="0;1" keyTimes="0;0.666"/>
+      </g>
+    </g>
+
+    <!-- progress dots -->
+    <circle cx="576" cy="242" r="4" fill="#247BFF"/>
+    <circle cx="606" cy="242" r="4" fill="#3a4560"/>
+    <circle cx="636" cy="242" r="4" fill="#3a4560"/>
+  </g>
+</svg>
