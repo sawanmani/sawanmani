@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <title>Tech stack — grouped by area, verified from public work</title>
+  <desc>Chips list technologies actually used in the owner's public repositories, grouped into five areas. No skill levels or percentages are shown.</desc>
+
+  <defs>
+    <linearGradient id="stack-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#247BFF" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#FF354F" stop-opacity="0.6"/>
+    </linearGradient>
+    <pattern id="stack-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#141d33"/>
+    </pattern>
+    <style>
+      .st-kicker { fill:#A7B0C3; font-size:12px; font-weight:700; letter-spacing:2px; }
+      .st-h { fill:#F4F6FC; font-size:15px; font-weight:700; }
+      .st-chip { fill:#0b1226; stroke:#243352; stroke-width:1; }
+      .st-t { fill:#F4F6FC; font-size:13px; font-weight:600; text-anchor:middle; }
+      .st-note { fill:#5b6684; font-size:12px; }
+    </style>
+  </defs>
+
+  <rect x="3" y="3" width="794" height="394" rx="22" fill="#070B16"/>
+  <rect x="3" y="3" width="794" height="394" rx="22" fill="url(#stack-dots)"/>
+  <rect x="3.5" y="3.5" width="793" height="393" rx="22" fill="none" stroke="url(#stack-frame)" stroke-width="1.3"/>
+
+  <text class="st-kicker" x="42" y="44">THE STACK · VERIFIED FROM PUBLIC WORK</text>
+
+  <!-- Frontend -->
+  <text class="st-h" x="42" y="78" fill="#247BFF">Frontend</text>
+  <rect class="st-chip" x="42"  y="88"  width="62"  height="28" rx="14"/><text class="st-t" x="73"  y="106">React</text>
+  <rect class="st-chip" x="114" y="88"  width="98"  height="28" rx="14"/><text class="st-t" x="163" y="106">TypeScript</text>
+  <rect class="st-chip" x="222" y="88"  width="98"  height="28" rx="14"/><text class="st-t" x="271" y="106">JavaScript</text>
+  <rect class="st-chip" x="330" y="88"  width="55"  height="28" rx="14"/><text class="st-t" x="357" y="106">Vite</text>
+  <rect class="st-chip" x="395" y="88"  width="112" height="28" rx="14"/><text class="st-t" x="451" y="106">Tailwind CSS</text>
+  <rect class="st-chip" x="517" y="88"  width="62"  height="28" rx="14"/><text class="st-t" x="548" y="106">HTML5</text>
+  <rect class="st-chip" x="589" y="88"  width="55"  height="28" rx="14"/><text class="st-t" x="616" y="106">CSS3</text>
+
+  <!-- AI / ML -->
+  <text class="st-h" x="42" y="140" fill="#FF354F">AI / ML</text>
+  <rect class="st-chip" x="42"  y="150" width="55"  height="28" rx="14"/><text class="st-t" x="69"  y="168">Python</text>
+  <rect class="st-chip" x="107" y="150" width="127" height="28" rx="14"/><text class="st-t" x="170" y="168">TensorFlow / Keras</text>
+  <rect class="st-chip" x="244" y="150" width="141" height="28" rx="14"/><text class="st-t" x="314" y="168">BirdNET-Analyzer</text>
+  <rect class="st-chip" x="395" y="150" width="76"  height="28" rx="14"/><text class="st-t" x="433" y="168">AASIST-L</text>
+  <rect class="st-chip" x="481" y="150" width="163" height="28" rx="14"/><text class="st-t" x="562" y="168">sentence-transformers</text>
+
+  <!-- Backend & Data -->
+  <text class="st-h" x="42" y="202" fill="#247BFF">Backend &amp; Data</text>
+  <rect class="st-chip" x="42"  y="212" width="76"  height="28" rx="14"/><text class="st-t" x="80"  y="230">FastAPI</text>
+  <rect class="st-chip" x="128" y="212" width="127" height="28" rx="14"/><text class="st-t" x="191" y="230">Node.js / Express</text>
+  <rect class="st-chip" x="265" y="212" width="98"  height="28" rx="14"/><text class="st-t" x="314" y="230">PostgreSQL</text>
+  <rect class="st-chip" x="373" y="212" width="84"  height="28" rx="14"/><text class="st-t" x="415" y="230">pgvector</text>
+  <rect class="st-chip" x="467" y="212" width="91"  height="28" rx="14"/><text class="st-t" x="512" y="230">REST APIs</text>
+
+  <!-- Cloud & DevOps -->
+  <text class="st-h" x="42" y="264" fill="#FF354F">Cloud &amp; DevOps</text>
+  <rect class="st-chip" x="42"  y="274" width="69"  height="28" rx="14"/><text class="st-t" x="76"  y="292">Vercel</text>
+  <rect class="st-chip" x="121" y="274" width="69"  height="28" rx="14"/><text class="st-t" x="155" y="292">Render</text>
+  <rect class="st-chip" x="200" y="274" width="84"  height="28" rx="14"/><text class="st-t" x="242" y="292">Supabase</text>
+  <rect class="st-chip" x="294" y="274" width="112" height="28" rx="14"/><text class="st-t" x="350" y="292">Google Cloud</text>
+  <rect class="st-chip" x="416" y="274" width="69"  height="28" rx="14"/><text class="st-t" x="450" y="292">Docker</text>
+  <rect class="st-chip" x="495" y="274" width="127" height="28" rx="14"/><text class="st-t" x="558" y="292">GitHub Actions</text>
+  <rect class="st-chip" x="632" y="274" width="47"  height="28" rx="14"/><text class="st-t" x="655" y="292">Git</text>
+
+  <!-- Design & Security -->
+  <text class="st-h" x="42" y="326" fill="#247BFF">Design &amp; Security</text>
+  <rect class="st-chip" x="42"  y="336" width="62"  height="28" rx="14"/><text class="st-t" x="73"  y="354">Figma</text>
+  <rect class="st-chip" x="114" y="336" width="62"  height="28" rx="14"/><text class="st-t" x="145" y="354">UI / UX</text>
+  <rect class="st-chip" x="186" y="336" width="199" height="28" rx="14"/><text class="st-t" x="285" y="354">Deepfake / voice detection</text>
+
+  <text class="st-note" x="42" y="384">Grouped by area on purpose — no proficiency bars or percentages.</text>
+</svg>
