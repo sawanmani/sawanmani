@@ -79,8 +79,8 @@ Guarded natural-language search over Commudle — extract → validate → param
 Identify a bird from audio with a **local BirdNET model**, then a screen-free mission. *Hacktoberfest 2026 demo (not deployed).*
 `React · TypeScript · FastAPI · TensorFlow`
 
-    </td>
-    <td width="45%">
+</td>
+<td width="45%">
 
 **[myBuddy](https://github.com/sawanmani/myBuddy)**
 Telegram AI bot — Qwen3 via OpenRouter, Supabase memory, on Render.
@@ -90,9 +90,9 @@ Telegram AI bot — Qwen3 via OpenRouter, Supabase memory, on Render.
 Widget-based AI assistant dashboard (weather, notes, speech, music).
 `Node/Express · React · Vite`
 
-> 📝 Project descriptions are taken from each repository's own README.
+*📝 Project descriptions are taken from each repository's own README.*
 
-    </td>
+</td>
   </tr>
 </table>
 
