@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="800" height="40">
+  <title>Decorative section divider</title>
+  <desc>An animated gradient rule with a travelling glow spark, used between profile sections.</desc>
+  <defs>
+    <linearGradient id="div-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#247BFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#247BFF" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#FF354F" stop-opacity="0.9"/>
+      <stop offset="1"   stop-color="#FF354F" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" dur="6s" repeatCount="indefinite" values="-0.35 0; 0.35 0; -0.35 0"/>
+    </linearGradient>
+    <radialGradient id="div-spark" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F4F6FC" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F4F6FC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="30" y="19" width="740" height="2" rx="1" fill="url(#div-line)"/>
+  <g>
+    <rect x="-18" y="15" width="36" height="10" rx="5" fill="url(#div-spark)"/>
+    <animateTransform attributeName="transform" type="translate" dur="6s" repeatCount="indefinite" values="40 0; 760 0; 40 0"/>
+  </g>
+</svg>
