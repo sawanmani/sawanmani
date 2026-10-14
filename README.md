@@ -1,13 +1,12 @@
 <!--
   Profile README for github.com/sawanmani
-  Five self-contained SVG sections + Markdown fallbacks.
-  Every factual claim is backed by RECONNAISSANCE.md evidence (see kit).
+  Self-contained SVG sections + Markdown fallbacks.
 -->
 
 <h1 align="center">Hi, I'm Adarsh Mani Tripathi 👋</h1>
 
 <p align="center">
-  <img src="assets/hero.svg?v=3" width="800" alt="Hero: Adarsh Mani Tripathi — Frontend Developer, UI Designer, AI/ML Explorer and open-source contributor, with a personal illustrated avatar." />
+  <img src="assets/hero.svg?v=4" width="800" alt="Hero: Adarsh Mani Tripathi — Frontend Developer, UI Designer, AI/ML Explorer and open-source contributor, with a personal illustrated avatar." />
 </p>
 
 <p align="center">
@@ -22,11 +21,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg?v=3" width="800" alt="" />
+  <img src="assets/divider.svg?v=4" width="800" alt="" />
 </p>
 
 <p align="center">
-  <img src="assets/about-life.svg?v=3" width="800" alt="About: capabilities in frontend, AI/ML, backend and cloud, plus interests in hackathons, cybersecurity/CTF and sketch/generative art." />
+  <img src="assets/about-life.svg?v=4" width="800" alt="About: capabilities in frontend, AI/ML, backend and cloud, plus interests in hackathons, cybersecurity/CTF and sketch/generative art." />
 </p>
 
 <details>
@@ -41,7 +40,7 @@
 </details>
 
 <p align="center">
-  <img src="assets/stack.svg?v=3" width="800" alt="Tech stack grouped by area: frontend, AI/ML, backend and data, cloud and DevOps, design and security." />
+  <img src="assets/stack.svg?v=4" width="800" alt="Tech stack grouped by area: frontend, AI/ML, backend and data, cloud and DevOps, design and security." />
 </p>
 
 <details>
@@ -58,7 +57,7 @@
 </details>
 
 <p align="center">
-  <img src="assets/id-dashboard.svg?v=3" width="800" alt="ID card: Adarsh Mani Tripathi, @sawanmani, Frontend Developer and UI Designer, member since 2024, portfolio adarshmtripathi.xyz." />
+  <img src="assets/id-dashboard.svg?v=4" width="800" alt="ID card: Adarsh Mani Tripathi, @sawanmani, Frontend Developer and UI Designer, member since 2024, portfolio adarshmtripathi.xyz." />
 </p>
 
 ## 📊 Live GitHub insights
@@ -88,14 +87,14 @@
   <img src="https://img.shields.io/badge/Built%20with-React%20%C2%B7%20TypeScript-7C3AED?style=for-the-badge&labelColor=070B16" alt="Built with" />
 </p>
 
-<p align="center"><sub>These cards are fetched live from public GitHub and update automatically — nothing here is hard-coded or fabricated.</sub></p>
+<p align="center"><sub>Live stats, refreshed automatically from public GitHub.</sub></p>
 
 <p align="center">
-  <img src="assets/divider.svg?v=3" width="800" alt="" />
+  <img src="assets/divider.svg?v=4" width="800" alt="" />
 </p>
 
 <p align="center">
-  <img src="assets/featured-banner.svg?v=3" width="800" alt="Featured work" />
+  <img src="assets/featured-banner.svg?v=4" width="800" alt="Featured work" />
 </p>
 
 <table>
@@ -130,24 +129,24 @@ Widget-based AI assistant dashboard (weather, notes, speech, music).
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=070B16) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=070B16&labelColor=070B16) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white&labelColor=070B16)
 
-<sub>📝 Descriptions are taken from each repository's own README. Tech badges are static — no fabricated stars or health metrics.</sub>
+<sub>📝 Project descriptions from each repository's README.</sub>
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <img src="assets/divider.svg?v=3" width="800" alt="" />
+  <img src="assets/divider.svg?v=4" width="800" alt="" />
 </p>
 
 ## 🏆 Highlights
 
 <p align="center">
-  <img src="assets/achievements.svg?v=3" width="800" alt="Highlights medal cards: 2nd place Hack-e-Awadh with Team Techbound; VoiceTrace deepfake-audio detection (MIT); Hacktoberfest 2026 contributor via BirdWalk; myBuddy Telegram AI bot." />
+  <img src="assets/achievements.svg?v=4" width="800" alt="Highlights medal cards: 2nd place Hack-e-Awadh with Team Techbound; VoiceTrace deepfake-audio detection (MIT); Hacktoberfest 2026 contributor via BirdWalk; myBuddy Telegram AI bot." />
 </p>
 
 <p align="center">
-  <img src="assets/connect.svg?v=3" width="800" alt="Connect: GitHub, LinkedIn and portfolio cards." />
+  <img src="assets/connect.svg?v=4" width="800" alt="Connect: GitHub, LinkedIn and portfolio cards." />
 </p>
 
 <p align="center">
@@ -166,8 +165,8 @@ Widget-based AI assistant dashboard (weather, notes, speech, music).
     github-readme-activity-graph were dropped because their public Vercel hosts
     return HTTP 402 (quota). If one rate-limits, it self-recovers on reload.
   - VoiceTrace/BirdWalk have no live demo link (VoiceTrace Vercel URL 404s; BirdWalk
-    is a local demo) — repo links only, per RECONNAISSANCE.md.
+    is a local demo) — repo links only.
   - Personal illustrated portraits are embedded (base64) in hero/id-dashboard/connect;
     originals are preserved in assets/source/ (not pushed to the profile repo).
-  - Bump ?v=3 -> ?v=4 (increment the number) when any SVG is replaced to bust GitHub's image cache.
+  - Bump ?v=4 -> ?v=5 (increment the number) when any SVG is replaced to bust GitHub's image cache.
 -->
