@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="800" height="220" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <title>Highlights — selected, evidence-verified achievements</title>
+  <desc>Four glowing medal cards summarising verified accomplishments: hackathon placement, VoiceTrace security project, Hacktoberfest open-source contribution, and the myBuddy Telegram AI bot.</desc>
+
+  <defs>
+    <linearGradient id="ah-frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#247BFF" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#FF354F" stop-opacity="0.65"/>
+    </linearGradient>
+    <radialGradient id="ah-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#247BFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#247BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ah-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#141d33"/>
+    </pattern>
+  </defs>
+
+  <!-- card -->
+  <rect x="3" y="3" width="794" height="214" rx="22" fill="#070B16"/>
+  <rect x="3" y="3" width="794" height="214" rx="22" fill="url(#ah-dots)"/>
+  <rect x="3.5" y="3.5" width="793" height="213" rx="22" fill="none" stroke="url(#ah-frame)" stroke-width="1.3"/>
+
+  <text x="42" y="44" fill="#A7B0C3" font-size="12px" font-weight="700" letter-spacing="2px">HIGHLIGHTS · VERIFIED FROM PUBLIC WORK</text>
+
+  <!-- glow accents -->
+  <ellipse cx="112" cy="120" rx="120" ry="90" fill="url(#ah-glow)"/>
+  <ellipse cx="690" cy="120" rx="120" ry="90" fill="url(#ah-glow)"/>
+
+  <!-- Card 1: Hackathon placement -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite" values="0 0; 0 -5; 0 0"/>
+    <rect x="22" y="64" width="180" height="120" rx="16" fill="#0b1226" stroke="url(#ah-frame)" stroke-width="1.3"/>
+    <g transform="translate(112,98)">
+      <circle r="20" fill="none" stroke="#FFD54A" stroke-width="2"/>
+      <path d="M0,-11 L3.2,-3.4 11,-3.1 5,1.6 6.9,9.2 0,4.9 -6.9,9.2 -5,1.6 -11,-3.1 -3.2,-3.4 Z" fill="#FFD54A"/>
+    </g>
+    <text x="112" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#F4F6FC">2nd Place</text>
+    <text x="112" y="158" text-anchor="middle" font-size="11" fill="#A7B0C3">Hack-e-Awadh hackathon</text>
+    <text x="112" y="174" text-anchor="middle" font-size="10" fill="#5b6684">Team Techbound</text>
+  </g>
+
+  <!-- Card 2: VoiceTrace -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="8s" begin="0.4s" repeatCount="indefinite" values="0 0; 0 -5; 0 0"/>
+    <rect x="218" y="64" width="180" height="120" rx="16" fill="#0b1226" stroke="url(#ah-frame)" stroke-width="1.3"/>
+    <g transform="translate(308,98)">
+      <path d="M0,-15 L12,-10 V2 C12,9 6,14 0,16 C-6,14 -12,9 -12,2 V-10 Z" fill="none" stroke="#247BFF" stroke-width="2.2"/>
+      <path d="M-4.5,0 L-1,4 L5.5,-4.5" fill="none" stroke="#FF354F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="308" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#F4F6FC">VoiceTrace</text>
+    <text x="308" y="158" text-anchor="middle" font-size="11" fill="#A7B0C3">Deepfake-audio detection</text>
+    <text x="308" y="174" text-anchor="middle" font-size="10" fill="#5b6684">AASIST-L · MIT licensed</text>
+  </g>
+
+  <!-- Card 3: Hacktoberfest -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="7.5s" begin="0.8s" repeatCount="indefinite" values="0 0; 0 -5; 0 0"/>
+    <rect x="414" y="64" width="180" height="120" rx="16" fill="#0b1226" stroke="url(#ah-frame)" stroke-width="1.3"/>
+    <g transform="translate(504,98)">
+      <circle cx="-8" cy="-10" r="3.4" fill="none" stroke="#37d67a" stroke-width="2"/>
+      <circle cx="-8" cy="10" r="3.4" fill="none" stroke="#37d67a" stroke-width="2"/>
+      <circle cx="9" cy="0" r="3.4" fill="none" stroke="#37d67a" stroke-width="2"/>
+      <line x1="-8" y1="-6.6" x2="-8" y2="6.6" stroke="#37d67a" stroke-width="2"/>
+      <path d="M-8,-1 C-1,-1 3,-1 5.6,0" fill="none" stroke="#37d67a" stroke-width="2"/>
+    </g>
+    <text x="504" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#F4F6FC">Hacktoberfest</text>
+    <text x="504" y="158" text-anchor="middle" font-size="11" fill="#A7B0C3">'26 open-source contributor</text>
+    <text x="504" y="174" text-anchor="middle" font-size="10" fill="#5b6684">BirdWalk project</text>
+  </g>
+
+  <!-- Card 4: myBuddy -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="8.5s" begin="0.2s" repeatCount="indefinite" values="0 0; 0 -5; 0 0"/>
+    <rect x="610" y="64" width="180" height="120" rx="16" fill="#0b1226" stroke="url(#ah-frame)" stroke-width="1.3"/>
+    <g transform="translate(700,98)">
+      <rect x="-12" y="-9" width="24" height="19" rx="5" fill="none" stroke="#7C3AED" stroke-width="2.2"/>
+      <circle cx="-4.5" cy="0" r="1.9" fill="#7C3AED"/>
+      <circle cx="4.5" cy="0" r="1.9" fill="#7C3AED"/>
+      <line x1="0" y1="-9" x2="0" y2="-15" stroke="#7C3AED" stroke-width="2"/>
+      <circle cx="0" cy="-16.5" r="2.2" fill="#FF354F"/>
+    </g>
+    <text x="700" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#F4F6FC">myBuddy</text>
+    <text x="700" y="158" text-anchor="middle" font-size="11" fill="#A7B0C3">Telegram AI bot</text>
+    <text x="700" y="174" text-anchor="middle" font-size="10" fill="#5b6684">Qwen3 · Supabase · Render</text>
+  </g>
+
+  <text x="42" y="203" fill="#5b6684" font-size="11">Selected, evidence-verified highlights only — no fabricated ranks or metrics.</text>
+</svg>

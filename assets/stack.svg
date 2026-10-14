@@ -10,6 +10,11 @@
     <pattern id="stack-dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="1.4" cy="1.4" r="1.4" fill="#141d33"/>
     </pattern>
+    <linearGradient id="stack-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F4F6FC" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F4F6FC" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#F4F6FC" stop-opacity="0"/>
+    </linearGradient>
     <style>
       .st-kicker { fill:#A7B0C3; font-size:12px; font-weight:700; letter-spacing:2px; }
       .st-h { fill:#F4F6FC; font-size:15px; font-weight:700; }
@@ -68,4 +73,9 @@
   <rect class="st-chip" x="186" y="336" width="199" height="28" rx="14"/><text class="st-t" x="285" y="354">Deepfake / voice detection</text>
 
   <text class="st-note" x="42" y="384">Grouped by area on purpose — no proficiency bars or percentages.</text>
+
+  <!-- glossy sheen sweep -->
+  <rect x="-280" y="0" width="240" height="400" fill="url(#stack-sheen)">
+    <animate attributeName="x" dur="6s" repeatCount="indefinite" values="-280;840"/>
+  </rect>
 </svg>

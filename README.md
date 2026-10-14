@@ -7,7 +7,7 @@
 <h1 align="center">Hi, I'm Adarsh Mani Tripathi 👋</h1>
 
 <p align="center">
-  <img src="assets/hero.svg?v=2" width="800" alt="Hero: Adarsh Mani Tripathi — Frontend Developer, UI Designer, AI/ML Explorer and open-source contributor, with a personal illustrated avatar." />
+  <img src="assets/hero.svg?v=3" width="800" alt="Hero: Adarsh Mani Tripathi — Frontend Developer, UI Designer, AI/ML Explorer and open-source contributor, with a personal illustrated avatar." />
 </p>
 
 <p align="center">
@@ -22,11 +22,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg?v=2" width="800" alt="" />
+  <img src="assets/divider.svg?v=3" width="800" alt="" />
 </p>
 
 <p align="center">
-  <img src="assets/about-life.svg?v=2" width="800" alt="About: capabilities in frontend, AI/ML, backend and cloud, plus interests in hackathons, cybersecurity/CTF and sketch/generative art." />
+  <img src="assets/about-life.svg?v=3" width="800" alt="About: capabilities in frontend, AI/ML, backend and cloud, plus interests in hackathons, cybersecurity/CTF and sketch/generative art." />
 </p>
 
 <details>
@@ -41,7 +41,7 @@
 </details>
 
 <p align="center">
-  <img src="assets/stack.svg?v=2" width="800" alt="Tech stack grouped by area: frontend, AI/ML, backend and data, cloud and DevOps, design and security." />
+  <img src="assets/stack.svg?v=3" width="800" alt="Tech stack grouped by area: frontend, AI/ML, backend and data, cloud and DevOps, design and security." />
 </p>
 
 <details>
@@ -58,7 +58,7 @@
 </details>
 
 <p align="center">
-  <img src="assets/id-dashboard.svg?v=2" width="800" alt="ID card: Adarsh Mani Tripathi, @sawanmani, Frontend Developer and UI Designer, member since 2024, portfolio adarshmtripathi.xyz." />
+  <img src="assets/id-dashboard.svg?v=3" width="800" alt="ID card: Adarsh Mani Tripathi, @sawanmani, Frontend Developer and UI Designer, member since 2024, portfolio adarshmtripathi.xyz." />
 </p>
 
 ## 📊 Live GitHub insights
@@ -84,57 +84,70 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/sawanmani?style=for-the-badge&logo=github&color=247BFF&labelColor=070B16" alt="GitHub followers" />
-  <img src="https://komarev.com/ghpvc/?username=sawanmani&style=for-the-badge&color=FF354F&labelColor=070B16&label=Profile+views" alt="Profile views" />
+  <img src="https://img.shields.io/badge/status-open%20to%20collaborate-37d67a?style=for-the-badge&labelColor=070B16" alt="Open to collaborate" />
   <img src="https://img.shields.io/badge/Built%20with-React%20%C2%B7%20TypeScript-7C3AED?style=for-the-badge&labelColor=070B16" alt="Built with" />
 </p>
 
 <p align="center"><sub>These cards are fetched live from public GitHub and update automatically — nothing here is hard-coded or fabricated.</sub></p>
 
 <p align="center">
-  <img src="assets/divider.svg?v=2" width="800" alt="" />
+  <img src="assets/divider.svg?v=3" width="800" alt="" />
 </p>
 
-## 🚀 Featured work
+<p align="center">
+  <img src="assets/featured-banner.svg?v=3" width="800" alt="Featured work" />
+</p>
 
 <table>
-  <tr>
-    <td width="55%">
+<tr>
+<td width="55%">
 
-**[VoiceTrace](https://github.com/sawanmani/VoiceTrace)**
+**🎙️ [VoiceTrace](https://github.com/sawanmani/VoiceTrace)**
 Real-time AI voice-clone / deepfake detection for VoIP &amp; static audio (AASIST-L).
-`Python · FastAPI · TensorFlow · Docker`
 
-**[Commudle-Sense](https://github.com/sawanmani/Commudle-Sense)**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B&labelColor=070B16) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=070B16) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=070B16) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=070B16)
+
+**🔍 [Commudle-Sense](https://github.com/sawanmani/Commudle-Sense)**
 Guarded natural-language search over Commudle — extract → validate → parameterised-SQL safety pipeline. *Team hackathon project.*
-`FastAPI · React · PostgreSQL/pgvector`
 
-**[BirdWalk](https://github.com/sawanmani/BirdWalk)**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=070B16) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=070B16&labelColor=070B16) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white&labelColor=070B16)
+
+**🐦 [BirdWalk](https://github.com/sawanmani/BirdWalk)**
 Identify a bird from audio with a **local BirdNET model**, then a screen-free mission. *Hacktoberfest 2026 demo (not deployed).*
-`React · TypeScript · FastAPI · TensorFlow`
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=070B16&labelColor=070B16) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=070B16) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=070B16)
 
 </td>
 <td width="45%">
 
-**[myBuddy](https://github.com/sawanmani/myBuddy)**
+**🤖 [myBuddy](https://github.com/sawanmani/myBuddy)**
 Telegram AI bot — Qwen3 via OpenRouter, Supabase memory, on Render.
-`Python · OpenRouter · Supabase`
 
-**[Junior-AI-Assistant](https://github.com/sawanmani/Junior-AI-Assistant)**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B&labelColor=070B16) ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white&labelColor=070B16) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white&labelColor=070B16)
+
+**🧩 [Junior-AI-Assistant](https://github.com/sawanmani/Junior-AI-Assistant)**
 Widget-based AI assistant dashboard (weather, notes, speech, music).
-`Node/Express · React · Vite`
 
-*📝 Project descriptions are taken from each repository's own README.*
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=070B16) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=070B16&labelColor=070B16) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white&labelColor=070B16)
+
+<sub>📝 Descriptions are taken from each repository's own README. Tech badges are static — no fabricated stars or health metrics.</sub>
 
 </td>
-  </tr>
+</tr>
 </table>
 
 <p align="center">
-  <img src="assets/divider.svg?v=2" width="800" alt="" />
+  <img src="assets/divider.svg?v=3" width="800" alt="" />
+</p>
+
+## 🏆 Highlights
+
+<p align="center">
+  <img src="assets/achievements.svg?v=3" width="800" alt="Highlights medal cards: 2nd place Hack-e-Awadh with Team Techbound; VoiceTrace deepfake-audio detection (MIT); Hacktoberfest 2026 contributor via BirdWalk; myBuddy Telegram AI bot." />
 </p>
 
 <p align="center">
-  <img src="assets/connect.svg?v=2" width="800" alt="Connect: GitHub, LinkedIn and portfolio cards." />
+  <img src="assets/connect.svg?v=3" width="800" alt="Connect: GitHub, LinkedIn and portfolio cards." />
 </p>
 
 <p align="center">
@@ -147,13 +160,14 @@ Widget-based AI assistant dashboard (weather, notes, speech, music).
   MAINTENANCE NOTES
   - Metrics (followers/stars/contributions) are intentionally omitted from static
     sections; the 📊 Live GitHub insights cards fetch real-time public data instead.
-  - Live cards use github-readme-stats / streak-stats.demolab / shields / komarev
-    (public instances verified HTTP 200). github-profile-trophy and
+  - Live cards use github-readme-stats / streak-stats.demolab / shields (public
+    instances verified HTTP 200). komarev profile-views was dropped because GitHub's
+    camo proxy blocks it (net::ERR_BLOCKED_BY_ORB); github-profile-trophy and
     github-readme-activity-graph were dropped because their public Vercel hosts
     return HTTP 402 (quota). If one rate-limits, it self-recovers on reload.
   - VoiceTrace/BirdWalk have no live demo link (VoiceTrace Vercel URL 404s; BirdWalk
     is a local demo) — repo links only, per RECONNAISSANCE.md.
   - Personal illustrated portraits are embedded (base64) in hero/id-dashboard/connect;
     originals are preserved in assets/source/ (not pushed to the profile repo).
-  - Bump ?v=2 -> ?v=3 (increment the number) when any SVG is replaced to bust GitHub's image cache.
+  - Bump ?v=3 -> ?v=4 (increment the number) when any SVG is replaced to bust GitHub's image cache.
 -->
