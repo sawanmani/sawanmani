@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
   <title>About — capabilities and current interests</title>
-  <desc>Left panel lists verified capabilities; right panel cycles through three interests.</desc>
+  <desc>Left panel lists capabilities; right panel cycles through three interests.</desc>
 
   <defs>
     <linearGradient id="life-frame" x1="0" y1="0" x2="1" y2="1">
